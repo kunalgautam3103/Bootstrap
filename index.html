@@ -14,77 +14,59 @@
 
 <body>
     <nav class="navbar">
-            <ul class="navbar navbar-expand-sm m-l-lg m-r-lg list-unstyled pb-0 pl-1 border-bottom w-100">
-                <li class="nav-item active mr-2" aria-label="library">
-                    <a tabindex="0" role="button" class="nav-link" href="#"><i class="icomoon-my-library-24px-1 mr-1"
-                        aria-pressed="false"></i>My Library
-                    </a>
-                </li>
-                <li class="nav-item mr-2" aria-label="enroll">
-                    <a tabindex="0" role="button" class="nav-link" href="#"><i class="icomoon-24px-save-as-4 mr-1"
-                        aria-pressed="false"></i>Enroll
-                    </a>
-                </li>
-                <li class="nav-item mr-2" aria-label="inbox">
-                    <a tabindex="0" role="button" class="nav-link" href="#"><i class="icomoon-envelop-3 mr-1"
-                        aria-pressed="false"></i>Inbox
-                    </a>
-                </li>
-                <li class="nav-item mr-2" aria-label="my profile">
-                    <a tabindex="0" role="button" class="nav-link" href="#"><i class="icomoon-my-profile-24px-1 mr-1"
-                        aria-pressed="false"></i>My Profile
-                    </a>
-                </li>
-                <li class="nav-item mr-2  border-bottom border-primary" aria-label="admin">
-                    <a tabindex="0" role="button"
-                        class="nav-link disabled border border-primary border-right-0 border-top-0 border-left-0"
-                        href="#" aria-pressed="false"><i class="icomoon-admin-24px-1 mr-1"></i>Admin
-                    </a>
-                </li>
+        <ul class="navbar navbar-expand-sm m-l-lg m-r-lg list-unstyled pb-0 pl-1 border-bottom w-100">
+            <li class="nav-item active mr-2" aria-label="library">
+                <a tabindex="0" role="button" class="nav-link" href="#"><i class="icomoon-my-library-24px-1 mr-1 text-nowrap" aria-pressed="false"></i>My Library</a>
+            </li>
+            <li class="nav-item mr-2" aria-label="enroll">
+                <a tabindex="0" role="button" class="nav-link" href="#"><i class="icomoon-24px-save-as-4 mr-1" aria-pressed="false"></i>Enroll</a>
+            </li>
+            <li class="nav-item mr-2" aria-label="inbox">
+                <a tabindex="0" role="button" class="nav-link" href="#"><i class="icomoon-envelop-3 mr-1" aria-pressed="false"></i>Inbox </a>
+            </li>
+            <li class="nav-item mr-2" aria-label="my profile">
+                <a tabindex="0" role="button" class="nav-link" href="#"><i class="icomoon-my-profile-24px-1 mr-1 text-nowrap" aria-pressed="false"></i>My Profile</a>
+            </li>
+            <li class="nav-item mr-2  border-bottom border-primary" aria-label="admin">
+                <a tabindex="0" role="button" class="nav-link disabled border border-primary border-right-0 border-top-0 border-left-0" href="#" aria-pressed="false"><i class="icomoon-admin-24px-1 mr-1"></i>Admin</a>
+            </li>
         </ul>
     </nav>
     <section class="d-flex mr-4 m-l-lg" id="section_one">
-        <article class="input-group d-flex max_width_250 border border-rad r ml-3 mr-sm-2">
-            <input class="form-control border-0" type="search" placeholder="uCertify" name="search" id="search"
-                aria-label="select input">
-            <span role="button" tabindex="0" class="input-group-text bg-light border-0 bg-white pr-2 font11"
-                aria-label="close" name="basic-addon_two" id="basic-addon_two">&#10006;</span>
-            <button class="btn btn-outline-primary bg-light border-0 bg-white dropdown-toggle text-dark" name="man_btn"
-                id="man_btn" aria-label="drop down"></button>
-        </article>
+        <form class="input-group d-flex max_width_250 border border-rad r ml-3 mr-sm-2 flex-nowrap">
+            <input class="form-control border-0" type="search" placeholder="uCertify" name="search" id="search" aria-label="select input">
+            <span role="button" tabindex="0" class="input-group-text bg-light border-0 bg-white pr-2 font11" aria-label="close" name="basic-addon_two" id="basic-addon_two">&#10006;</span>
+            <button class="btn btn-outline-primary bg-light border-0 bg-white dropdown-toggle text-dark" name="man_btn" id="man_btn" aria-label="drop down"></button>
+        </form>
         <article class="btn-group" role="group" aria-label="Basic button">
-            <button type="button" class="btn text-dark btn-outline-primary dt bg-light" name="ros_btn" id="ros_btn"
-                aria-label="roster button">
+            <button type="button" class="btn text-dark btn-outline-primary dt bg-light" name="ros_btn" id="ros_btn" aria-label="roster">
                 <span class="d-inline-flex">
                     <i class="mr-1 icomoon-roster-sm mt-sm-1 s3"></i>
                     <span>Roster</span>
                 </span>
             </button>
-            <button class="btn btn-outline-primary text-dark" name="man_btn" id="man_btn" aria-label="Manager button">
+            <button type="button" class="btn btn-outline-primary text-dark text-nowrap" name="man_btn" id="man_btn" aria-label="Manager">
                 <i class="mr-1 icomoon-project-management-44px s3"></i>
                 Manager
                 <i class="icomoon-new-24px-arrow-down-2 ml-1 s1"></i>
             </button>
-            <button class="btn btn-outline-primary text-dark" name="report" id="report" aria-label="report button">
+            <button type="button" class="btn btn-outline-primary text-dark" name="report" id="report" aria-label="report">
                 <span class="d-inline-flex">
                     <i class="mr-1 icomoon-reports-sm s3 mt-1"></i>
                     Report
                     <i class="icomoon-new-24px-arrow-down-2 mt-2 ml-sm-2 s1"></i>
                 </span>
             </button>
-            <button class="btn btn-outline-primary  text-dark" name="enroll_btn" id="enroll_btn"
-                aria-label="enroll button">
+            <button type="button" class="btn btn-outline-primary text-dark" name="enroll_btn" id="enroll_btn" aria-label="enroll">
                 <span class="d-inline-flex">
                     <i class="mr-1 icomoon-add-license-enroll-sm s3 mt-1"></i>
                     Enroll
                 </span>
             </button>
         </article>
-        <article class="ml-auto mr-4">
-            <button type="button" class="btn btn-outline-primary mx-auto" id="fig" name="fig"
-                aria-label="config button">LMS Configuration</button>
-            <button type="button" class="btn btn-outline-primary  text-center text-dark mx-auto" id="Expt" name="Expt"
-                aria-label="export button">
+        <article class="ml-auto mr-4 text-nowrap">
+            <button type="button" class="btn btn-outline-primary ml-xl-5 py-2" id="fig" name="fig" aria-label="config">LMS Configuration</button>
+            <button type="button" class="btn btn-outline-primary text-center text-dark mx-auto" id="Expt" name="Expt" aria-label="export">
                 <span class="d-inline-flex">
                     <i class="icomoon-folder-download-2 mr-2 s3"></i>Export
                     <i class="icomoon-new-24px-arrow-down-2 mt-2 ml-sm-2 s1"></i>
@@ -93,38 +75,34 @@
         </article>
     </section>
     <section class="d-flex justify-content-start mt-3 m-l-lg mr-xl-5">
-        <button type="button" class="btn w-10 text-dark bg-light mx-3 px-3" id="srch" name="srch"
-            aria-label="search button">
+        <button type="button" class="btn w-10 text-dark bg-light mx-3 px-3" id="srch" name="srch" aria-label="search">
             <i class="icomoon-new-24px-zoom-1 s3"></i>
         </button>
         <div class="btn-group">
-            <button type="button" class="btn btn-outline-primary text-dark bg-light px-2" id="Roster" name="Roster"
-                aria-label="search button">
+            <button type="button" class="btn btn-outline-primary text-dark bg-light px-2" id="Roster" name="Roster" aria-label="roster">
                 <span class="d-inline-flex">
                     <i class="mr-1  icomoon-roster-sm mt-sm-1 s3"></i>
                     <span>Roster</span>
                 </span>
             </button>
-            <button type="button" class="btn btn-outline-primary text-dark px-2" id="lesson" name="lesson" aria-label="lesson button">
+            <button type="button" class="btn btn-outline-primary text-dark px-2" id="lesson" name="lesson" aria-label="lesson">
                 <span class="d-inline-flex">
-                    <i class="icomoon-lesson-sm  mr-2 mt-1 s3"></i>
+                    <i class="icomoon-lesson-sm mr-2 mt-1 s3"></i>
                     Lessons
                 </span>
             </button>
-            <button type="button" class="btn btn-outline-primary text-dark  px-2 " id="practice" name="practice" aria-label="practice button">
+            <button type="button" class="btn btn-outline-primary text-dark px-2 text-nowrap" id="practice" name="practice" aria-label="practice">
                 <i class="icomoon-testprep-or-practice-test mr-1 s3"></i>
                 Practice
             </button>
-            <button type="button" class="btn btn-outline-primary text-dark px-2" id="engine" name="engine"
-                aria-label="prep button">
+            <button type="button" class="btn btn-outline-primary text-dark px-2" id="engine" name="engine" aria-label="prep">
                 <div class="d-inline-flex h">
                     <i class=" icomoon-cogs mr-1 mt-sm-1 s3 font-weight-bold"></i>
                     <span class="pr-2">Prepengine</span>
                     <i class="icomoon-new-24px-arrow-down-2 s1 pt-2"></i>
                 </div>
             </button>
-            <button type="button" class="btn btn-outline-primary text-dark px-2" id="analytic"
-                aria-label="analytic button" name="analytic">
+            <button type="button" class="btn btn-outline-primary text-dark px-2" id="analytic" aria-label="analytic" name="analytic">
                 <span class="d-inline-flex">
                     <i class="icomoon-bars mr-sm-2 mt-sm-1 s3"></i>
                     Analytics
@@ -132,124 +110,122 @@
                 </span>
             </button>
         </div>
-        <span class="custom-control custom-switch ml-xl-auto mt-2">
+        <span tabindex="0" aria-label="switch" class="custom-control custom-switch ml-xl-auto mt-2 text-nowrap">
             <span>Test Mode Only</span>
-            <span>
-                <input type="checkbox" tabindex="0" class="custom-control-input " id="switch_one">
-            </span>
-            <span class="custom-control-label ml-5" for="custom"></span>
+        <input type="checkbox" class="custom-control-input" id="switch_one" name="switch_one" />
+        <span class="custom-control-label ml-5" for="custom"></span>
         </span>
     </section>
     <section class="mx-5 mt-4">
         <table id="table_one">
             <thead class="px-2">
-                <tr>
-                    <th scope="col" tabindex="0" class="pr-4 pl-2">
+                <tr scope="row">
+                    <th scope="col" class="pr-4 pl-2">
                         <article class="form-check form-switch p-0 d-flex">
-                            <input class="form-check-input custom_checkbox_new" type="checkbox" id="switch" name="switch"
-                                disabled=disabled>
+                            <input class="form-check-input custom_checkbox_new" type="checkbox" id="switch" name="switch" tabindex="0" aria-label="select checkbox" disabled>
                             <span class="form-check-label" for="flexSwitchCheckDefault">
-                                <button type="button"
-                                    class="btn btn-outline-primary bg-white text-dark p-0 mx-1 mt-sm-n1 pr-lg-1 pl-lg-1"
-                                    data-toggle="dropdown" id="Check" name="Check_btn">
+                                <button type="button" class="btn btn-outline-primary bg-white text-dark p-0 mx-1 mt-sm-n1 pr-lg-1 pl-lg-1"
+                                    data-toggle="dropdown" id="Check" name="Check_btn" aria-label="drop down">
                                     <small> <i class="icomoon-new-24px-arrow-down-2 s1"></i> </small>
                                 </button>
                             </span>
                         </article>
                     </th>
-                    <th scope="col" tabindex="0">
+                    <th scope="col">
                         <article class="pr-5 d-flex flex-column pb-4">
-                            <p class="p-0 m-0">StudentName</p>
-                            <div class="dropup">
+                            <p class="p-0 m-0" tabindex="0" aria-label="student name">StudentName</p>
+                            <div class="dropup" tabindex="0" aria-label="tag drop up">
                                 <small>Tag/Status</small>
                                 <span class="dropdown-toggle dropdown-toggle-split pl-1"></span>
                             </div>
                         </article>
                     </th>
-                    <th scope="col" tabindex="0">
+                    <th scope="col">
                         <article class="pl-3 pr-4 d-flex flex-column pb-1">
-                            <p class="p-0 m-0">Course Name</p>
-                            <div class="dropup">
+                            <p tabindex="0" aria-label="course name" class="p-0 m-0">Course Name</p>
+                            <div tabindex="0" aria-label="course drop up" class="dropup">
                                 <small>CRN/Course Status</small>
                                 <span class="dropdown-toggle dropdown-toggle-split pl-1"></span>
                             </div>
                         </article>
                     </th>
-                    <th scope="col" tabindex="0" class="pr-3">
+                    <th scope="col" class="pr-3">
                         <article class="px-3 d-flex flex-column pb-3">
-                            <p class="p-0 m-0">Instructor</p>
-                            <div class="dropup">
+                            <p tabindex="0" aria-label="Instructor" class="p-0 m-0">Instructor</p>
+                            <div tabindex="0" aria-label=" section dropup" class="dropup">
                                 <small>Section</small>
                                 <span class="dropdown-toggle dropdown-toggle-split pl-1"></span>
                             </div>
                         </article>
                     </th>
-                    <th scope="col" tabindex="0" class="px-3">
+                    <th scope="col" class="px-3">
                         <article class="px-0 d-flex flex-column pb-4">
-                            <p class="p-0 m-0">Readiness</p>
-                            <div class="dropup">
+                            <p tabindex="0" aria-label="Readiness name" class="p-0 m-0">Readiness</p>
+                            <div tabindex="0" aria-label="dropdown" class="dropup">
                                 <span class="dropdown-toggle dropdown-toggle-split"></span>
                             </div>
                         </article>
                     </th>
-                    <th scope="col" tabindex="0">
+                    <th scope="col">
                         <article class="px-2 d-flex flex-column">
-                            <p class="p-0 m-0">Start</p>
-                            <small class="label-wrap text-nowrap">Time Passed</small>
-                            <div class="dropup">
+                            <p tabindex="0" aria-label="start" class="p-0 m-0">Start</p>
+                            <small tabindex="0" aria-label="time Passed" class="label-wrap text-nowrap">Time
+                                Passed</small>
+                            <div tabindex="0" aria-label="dropdown" class="dropup">
                                 <span class="dropdown-toggle dropdown-toggle-split"></span>
                             </div>
                         </article>
                     </th>
-                    <th scope="col" tabindex="0">
+                    <th scope="col">
                         <article class="px-2 d-flex flex-column">
-                            <p class="p-0 m-0">Target</p>
-                            <small class="label-wrap text-nowrap">Time Needed</small>
-                            <div class="dropup">
+                            <p tabindex="0" aria-label="target" class="p-0 m-0">Target</p>
+                            <small tabindex="0" aria-label="time Needed" class="label-wrap text-nowrap">
+                                Time Needed
+                            </small>
+                            <div tabindex="0" aria-label="dropup" class="dropup">
                                 <span class="dropdown-toggle dropdown-toggle-split"></span>
                             </div>
                         </article>
                     </th>
-                    <th scope="col" tabindex="0">
+                    <th scope="col">
                         <article class="pl-2 d-flex flex-column pb-4 ">
-                            <p class="p-0 m-0">Estimated</p>
-                            <small class="label-wrap d-inline-flex text-nowrap">Time Required
-                                <i class="icomoon-new-24px-arrow-down-2 s1 mt-1 ml-2"></i>
+                            <p tabindex="0" aria-label="Estimated" class="p-0 m-0">Estimated</p>
+                            <small tabindex="0" aria-label="time required" class="label-wrap d-inline-flex text-nowrap">Time Required
+                                <i tabindex="0" aria-label="dropup" class="icomoon-new-24px-arrow-down-2 s1 mt-1 ml-2"></i>
                             </small>
                         </article>
                     </th>
-                    <th scope="col" tabindex="0">
+                    <th scope="col">
                         <article class="px-2 d-flex flex-column">
-                            <p class="p-0 m-0">Last Login</p>
-                            <small class="label-wrap text-nowrap">Time Passed</small>
-                            <div class="dropup">
+                            <p tabindex="0" aria-label="last Login" class="p-0 m-0">Last Login</p>
+                            <small tabindex="0" aria-label="time passed" class="label-wrap text-nowrap">TimePassed</small>
+                            <div tabindex="0" aria-label="dropup" class="dropup">
                                 <span class="dropdown-toggle dropdown-toggle-split"></span>
                             </div>
                         </article>
                     </th>
-                    <th scope="col" tabindex="0">
-                        <article class="pl-1">Actions</article>
+                    <th scope="col">
+                        <article tabindex="0" aria-label="action" class="pl-1">Actions</article>
                     </th>
                 </tr>
             </thead>
             <tbody class="px-2">
                 <tr class="border table-light py-2 opaque8 text-muted disabled">
-                    <td scope="col" tabindex="0" class="border-bottom pt-4">
+                    <td scope="col" class="border-bottom pt-4">
                         <article class="ml-1 mt-3 pl-0 form-check form-check-inline">
-                            <input type="checkbox" class="form-check-input custom_checkbox_new" id="check_one"
-                                name="check_one" disabled=disabled>
-                            <label class="form-check-label ml-1" for="check_one">1</label>
+                            <input tabindex="0" aria-label="input check" type="checkbox" class="form-check-input custom_checkbox_new" id="check_one" name="check_one" disabled>
+                            <span tabindex="0" aria-label="Sequence 1" class="form-check-label ml-1" for="check_one">1</span>
                         </article>
                     </td>
                     <td scope="col" tabindex="0" class="border-bottom">
                         <article class="py-2 d-flex">
                             <svg height="60" width="60">
                                 <defs>
-                                    <clipPath id="myCircle">
-                                        <circle cx="30" cy="30" r="20" fill="#FFFFFF"/>
+                                    <clipPath id="my_circle">
+                                        <circle cx="30" cy="30" r="20" fill="#FFFFFF" />
                                     </clipPath>
                                 </defs>
-                                <image width="60" height="60" xlink:href="kunal.png.jpg" clip-path="url(#myCircle)"/>
+                                <image width="60" height="60" xlink:href="kunal.png.jpg" clip-path="url(#my_circle)" />
                             </svg>
                             <p class="text-truncate text-center w-50 pt-3 pl-1">Abhishek Kumar</p>
                         </article>
@@ -278,7 +254,8 @@
                             <svg height="23" width="23" viewBox="0 0 20 20">
                                 <circle r="10" cx="10" cy="10" fill="#e9ebe5" />
                                 <circle r="5" cx="10" cy="10" fill="transparent" stroke="green" stroke-width="10"
-                                    stroke-dasharray="17.11 38.4" transform="rotate(-90) translate(-20)" />
+                                    stroke-dasharray="17.11 38.4" transform="rotate(-90) translate(-20)"
+                                />
                             </svg>
                             <p class="text-success">58%</p>
                         </article>
@@ -315,9 +292,9 @@
                             </p>
                         </article>
                     </td>
-                    <td scope="col" tabindex="0" class="border-bottom">
+                    <td scope="col" class="border-bottom">
                         <article class=" py-3 pl-1">
-                            <button class="btn btn-outline-primary d-inline" aria-label="setting button">
+                            <button type="button" class="btn btn-outline-primary d-inline" tabindex="0" aria-label="setting">
                                 <span class="d-inline-flex">
                                     <i class="icomoon-24px-settings text-dark mr-1"></i>
                                     <i class="icomoon-new-24px-arrow-down-2 font9 text-dark pt-1 pl-1"></i>
@@ -327,17 +304,16 @@
                     </td>
                 </tr>
                 <tr class="border table-light py-5 border-0 disabled">
-                    <td scope="col" tabindex="0" class="border border-0 pt-4">
+                    <td scope="col" class="border border-0 pt-4">
                         <article class="ml-1 mt-3 pl-0 form-check form-check-inline">
-                            <input type="checkbox" class="form-check-input custom_checkbox_new" id="check_label"
-                                name="check_label" disabled=disabled>
-                            <span class="form-check-label ml-1" for="check_label">2</span>
+                            <input type="checkbox" tabindex="0" aria-label="checkbox" class="form-check-input custom_checkbox_new" id="check_label" name="check_label" disabled>
+                            <span tabindex="0" aria-label="seq 2" class="form-check-label ml-1" for="check_label">2</span>
                         </article>
                     </td>
                     <td scope="col" tabindex="0">
-                        <article class="py-2 d-flex pl-2 ">
+                        <article class="py-2 d-flex pl-2">
                             <svg height="40" width="40" viewBox="0 0 20 20">
-                                <circle r="10" cx="10" cy="10" fill="green"/>
+                                <circle r="10" cx="10" cy="10" fill="green" />
                                 <text x="4" y="13" class="font9" fill="white">AP</text>
                             </svg>
                             <p class="text-truncate text-center pt-2 pl-2 w-50">Abhishek Pandey</p>
@@ -349,7 +325,8 @@
                             <p class="my-0">
                                 <small>app-training</small>
                             </p>
-                            <p class="my-0"> <i class="icomoon-24px-test text-success icomoon-lesson-sm"></i>
+                            <p class="my-0">
+                                <i class="icomoon-24px-test text-success icomoon-lesson-sm"></i>
                                 <i class="icomoon-24px-test text-success icomoon-test-44px mr-1"></i>
                             </p>
                         </article>
@@ -357,16 +334,15 @@
                     <td scope="col" tabindex="0">
                         <article class="pl-3 pt-3 pr-2 d-flex flex-column">Swati Kesarwani
                             <span id="New" class="badge bg-primary w-75 pr-4 text-left text-light">
-                                merged Shambhunath Ap</span>
-                            </button>
+                                merged Shambhunath Ap
+                            </span>
                         </article>
                     </td>
                     <td scope="col" tabindex="0" class="border-0">
                         <article class="pl-4 pt-3 d-flex flex-column">
                             <svg height="23" width="23" viewBox="0 0 20 20">
                                 <circle r="10" cx="10" cy="10" fill="#e9ebe5" />
-                                <circle r="5" cx="10" cy="10" fill="transparent" stroke="green" stroke-width="10"
-                                    stroke-dasharray="18.99 38.4" transform="rotate(-90) translate(-20)" />
+                                <circle r="5" cx="10" cy="10" fill="transparent" stroke="green" stroke-width="10" stroke-dasharray="18.99 38.4" transform="rotate(-90) translate(-20)"/>
                             </svg>
                             <p class="text-success">64%</p>
                         </article>
@@ -379,7 +355,7 @@
                             </p>
                         </article>
                     </td>
-                    <td scope="col" tabindex="0" class=" border-0">
+                    <td scope="col" tabindex="0" class="border-0">
                         <article class="d-flex flex-column pt-3 px-2 text-nowrap">
                             18-JUN-17
                             <p>
@@ -403,10 +379,9 @@
                             </p>
                         </article>
                     </td>
-                    <td scope="col" tabindex="0">
+                    <td scope="col">
                         <article class="py-3 pl-1">
-                            <button class="btn btn-outline-primary d-inline" name="action" id="action"
-                                aria-label="setting button">
+                            <button type="button" class="btn btn-outline-primary d-inline" name="action" id="action" aria-label="setting dropdown">
                                 <span class="d-inline-flex">
                                     <i class="icomoon-24px-settings text-dark mr-1"></i>
                                     <i class="icomoon-new-24px-arrow-down-2 font9 text-dark pt-1 pl-1"></i>
