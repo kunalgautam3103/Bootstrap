@@ -33,7 +33,7 @@
         </ul>
     </nav>
     <section class="d-flex mr-4 m-l-lg" id="section_one">
-        <form class="input-group d-flex max_width_250 border border-rad r ml-3 mr-sm-2 flex-nowrap">
+        <form role="form" id="frm_inp" class="input-group d-flex max_width_250 border border-rad r ml-3 mr-sm-2 flex-nowrap">
             <input class="form-control border-0" type="search" placeholder="uCertify" name="search" id="search" aria-label="select input">
             <span role="button" tabindex="0" class="input-group-text bg-light border-0 bg-white pr-2 font11" aria-label="close" name="basic-addon_two" id="basic-addon_two">&#10006;</span>
             <button class="btn btn-outline-primary bg-light border-0 bg-white dropdown-toggle text-dark" name="man_btn" id="man_btn" aria-label="drop down"></button>
@@ -79,7 +79,7 @@
             <i class="icomoon-new-24px-zoom-1 s3"></i>
         </button>
         <div class="btn-group">
-            <button type="button" class="btn btn-outline-primary text-dark bg-light px-2" id="Roster" name="Roster" aria-label="roster">
+            <button type="button" class="btn btn-outline-primary text-dark bg-light px-2" id="roster_btn" name="roster_btn" aria-label="roster">
                 <span class="d-inline-flex">
                     <i class="mr-1  icomoon-roster-sm mt-sm-1 s3"></i>
                     <span>Roster</span>
@@ -111,8 +111,8 @@
             </button>
         </div>
         <span tabindex="0" aria-label="switch" class="custom-control custom-switch ml-xl-auto mt-2 text-nowrap">
-            <span>Test Mode Only</span>
-                <input type="checkbox" class="custom-control-input" id="switch_one" name="switch_one"/>
+            <label for="switch">Test Mode Only</label>
+            <input type="checkbox" class="custom-control-input" id="switch_one" name="switch_one"/>
             <span class="custom-control-label ml-5" for="custom"></span>
         </span>
     </section>
@@ -122,10 +122,10 @@
                 <tr scope="row">
                     <th scope="col" class="pr-4 pl-2">
                         <article class="form-check form-switch p-0 d-flex">
-                            <input class="form-check-input custom_checkbox_new" type="checkbox" id="switch" name="switch" tabindex="0" aria-label="select checkbox" disabled>
+                            <input class="form-check-input custom_checkbox_new" type="checkbox" id="switch" name="switch" tabindex="0" aria-label="select checkbox" disabled="disabled">
                             <span class="bg-white d-flex m-t-xxs border border-info p-sm pt-0 pb-sm-0 rounded" tabindex="0">
                                 <small>
-                                    <i class="icomoon-new-24px-arrow-down-2 font-weight-bold font9"></i></button>
+                                    <i class="icomoon-new-24px-arrow-down-2 font-weight-bold font9"></i>
                                 </small>
                             </span>
                         </article>
@@ -212,7 +212,7 @@
                 <tr class="border table-light py-2 opaque8 text-muted disabled">
                     <td scope="col" class="border-bottom pt-4">
                         <article class="ml-1 mt-3 pl-0 form-check form-check-inline">
-                            <input tabindex="0" aria-label="input check" type="checkbox" class="form-check-input custom_checkbox_new" id="check_one" name="check_one" disabled>
+                            <input tabindex="0" aria-label="input check" type="checkbox" class="form-check-input custom_checkbox_new" id="check_one" name="check_one" disabled="disabled">
                             <span tabindex="0" aria-label="Sequence 1" class="form-check-label ml-1" for="check_one">1</span>
                         </article>
                     </td>
@@ -291,7 +291,7 @@
                     </td>
                     <td scope="col" class="border-bottom">
                         <article class=" py-3 pl-1">
-                            <button type="button" class="btn btn-outline-primary d-inline" tabindex="0" aria-label="setting">
+                            <button type="button" name="set_btn" id="set_btn" class="btn btn-outline-primary d-inline" tabindex="0" aria-label="setting">
                                 <span class="d-inline-flex">
                                     <i class="icomoon-24px-settings text-dark mr-1"></i>
                                     <i class="icomoon-new-24px-arrow-down-2 font9 text-dark pt-1 pl-1"></i>
